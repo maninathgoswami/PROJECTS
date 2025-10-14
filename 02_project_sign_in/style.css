@@ -1,0 +1,114 @@
+/* google font- poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+body, html{
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: #6366f1;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.card{
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover{
+    margin-top: 10px;
+    color: #111827;
+}
+
+.card .subtitle{
+    font-size: 14px;
+    color: #6a7280;
+    margin-bottom: 30px;
+}
+
+/* Form */
+.input-group{
+    margin-bottom: 20px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #374151;
+}
+
+.input-group input{
+    width: 100%;
+    padding: 12px 24px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.input-group input:focus{
+    border-color: #6366f1;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color: #6b7280;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: #6366f1;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background: #4f46e5;
+}
+
+.signup{
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #6b7280;
+}
+
+.signup a{
+    font-weight: 500;
+}
